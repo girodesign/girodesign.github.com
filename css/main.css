@@ -1,0 +1,76 @@
+    html {
+        scroll-behavior: smooth;
+    s}
+
+
+    body {
+        position: relative;
+    }
+
+    .heroSection {
+        background: url(../img/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+    }
+
+    .navbar {
+        opacity: 0.5;
+    }
+
+    .navbar-brand {
+        font-weight: 700;
+    }
+
+    .navbar-nav>.nav-item>.nav-link {
+        color: white;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: 0.5;
+
+    }
+
+    .navbar-nav>.nav-item>.nav-link:hover {
+        border-bottom: 2px solid#fff;
+    }
+
+    .heroSection .col-sm-4 {
+        height: 100vh;
+    }
+
+    .designer {
+        height: 70vh;
+    }
+
+
+    /*services*/
+
+    .img-services {
+        border: 2px solid blue;
+        padding: 20px;
+        border-radius: 10px;
+        /*background: blue;*/
+    }
+
+    .fas {
+        border-radius: 10px;
+    }
+
+    /*portfolio*/
+
+    .row1-img {
+
+        transition: 0.5s;
+    }
+
+    .row1-img:hover {
+        transform: scale(1.1);
+    }
+
+    /*contact*/
+
+    .linkFooter:hover {
+        color: #ccc
+    }
